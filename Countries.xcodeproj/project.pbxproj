@@ -14,6 +14,7 @@
 		969198A4288EDC18001B5133 /* CountriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969198A3288EDC18001B5133 /* CountriesTests.swift */; };
 		969198AE288EDC18001B5133 /* CountriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969198AD288EDC18001B5133 /* CountriesUITests.swift */; };
 		969198B0288EDC18001B5133 /* CountriesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969198AF288EDC18001B5133 /* CountriesUITestsLaunchTests.swift */; };
+		969198BD288EEC6E001B5133 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969198BC288EEC6E001B5133 /* Country.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		969198A9288EDC18001B5133 /* CountriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		969198AD288EDC18001B5133 /* CountriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesUITests.swift; sourceTree = "<group>"; };
 		969198AF288EDC18001B5133 /* CountriesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		969198BC288EEC6E001B5133 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				96919892288EDC16001B5133 /* CountriesApp.swift */,
 				96919894288EDC16001B5133 /* ContentView.swift */,
+				969198BC288EEC6E001B5133 /* Country.swift */,
 				96919896288EDC18001B5133 /* Assets.xcassets */,
 				96919898288EDC18001B5133 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96919895288EDC16001B5133 /* ContentView.swift in Sources */,
+				969198BD288EEC6E001B5133 /* Country.swift in Sources */,
 				96919893288EDC16001B5133 /* CountriesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
