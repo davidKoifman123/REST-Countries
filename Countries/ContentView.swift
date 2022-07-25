@@ -8,9 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+   @StateObject var fetcher = CountryFetcher()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            ScrollView {
+                LazyVStack {
+                    ForEach(fetcher.countries, id: \.self.name.common) { count in
+                        
+                    }
+                }
+            }
+        }
     }
 }
 

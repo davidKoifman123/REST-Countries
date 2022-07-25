@@ -15,6 +15,7 @@
 		969198AE288EDC18001B5133 /* CountriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969198AD288EDC18001B5133 /* CountriesUITests.swift */; };
 		969198B0288EDC18001B5133 /* CountriesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969198AF288EDC18001B5133 /* CountriesUITestsLaunchTests.swift */; };
 		969198BD288EEC6E001B5133 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969198BC288EEC6E001B5133 /* Country.swift */; };
+		969198BF288EEFDF001B5133 /* CountryFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969198BE288EEFDF001B5133 /* CountryFetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		969198AD288EDC18001B5133 /* CountriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesUITests.swift; sourceTree = "<group>"; };
 		969198AF288EDC18001B5133 /* CountriesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		969198BC288EEC6E001B5133 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		969198BE288EEFDF001B5133 /* CountryFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryFetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				96919892288EDC16001B5133 /* CountriesApp.swift */,
 				96919894288EDC16001B5133 /* ContentView.swift */,
 				969198BC288EEC6E001B5133 /* Country.swift */,
+				969198BE288EEFDF001B5133 /* CountryFetcher.swift */,
 				96919896288EDC18001B5133 /* Assets.xcassets */,
 				96919898288EDC18001B5133 /* Preview Content */,
 			);
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				969198BF288EEFDF001B5133 /* CountryFetcher.swift in Sources */,
 				96919895288EDC16001B5133 /* ContentView.swift in Sources */,
 				969198BD288EEC6E001B5133 /* Country.swift in Sources */,
 				96919893288EDC16001B5133 /* CountriesApp.swift in Sources */,
