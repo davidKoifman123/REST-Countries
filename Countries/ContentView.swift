@@ -7,6 +7,14 @@
 
 import SwiftUI
 
+struct CountryView: View {
+    var flag: String
+    
+    var body: some View {
+        Text(flag)
+    }
+}
+
 struct ContentView: View {
    @StateObject var fetcher = CountryFetcher()
     
@@ -14,9 +22,17 @@ struct ContentView: View {
         NavigationView {
             ScrollView {
                 LazyVStack {
-                    ForEach(fetcher.countries, id: \.self.name.common) { count in
-                        
+                    if fetcher.countries.count > 0 {
+                    ForEach(fetcher.countries, id: \.self.name.common) { country in
+                        NavigationLink(destination: CountryView(flag: country.flag)) {
+                            Text(country.name.common).foregroundColor(.red)
+                        }
                     }
+                    } else {
+                        Text("Loading...")
+                    }
+                }.task {
+                    try? await fetcher.fetchData()
                 }
             }
         }
